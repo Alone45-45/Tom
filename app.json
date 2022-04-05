@@ -3,11 +3,11 @@
   "description": "A Telegram Bot To Play Songs In Telegram Group Video Chats. Powered by PyTGCalls.",
   "keywords": ["Music", " Videochat", "Voicechat", "Telegram"],
   "logo": "https://te.legra.ph/file/d1344663dfba5cadb595d.jpg",
-  "repository": "https://github.com/AnonymousBoy1025/BabyGirlMusic",
+  "repository": "https://github.com/Alone45-45/Tom",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
-      "description": "Pyrogram Session String Get From https://t.me/AnonymousStringBot",
+      "description": "Pyrogram Session String ",
       "required": true
     },
     "BOT_TOKEN": {
@@ -17,22 +17,22 @@
     "BOT_USERNAME": {
       "description": "Username of the bot without @, Get this value from @BotFather",
       "required": true,
-      "value": "Devil_X_Robot"
+      "value": ""
     },
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps",
       "required": true,
-      "value": "2719576"
+      "value": ""
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org/apps",
       "required": true,
-      "value": "ab88e6ee1be33f53db445baf874e1c74"
+      "value": ""
     },
     "OWNER_ID": {
       "description": "Telegram I'd of the owner of bot",
       "required": true,
-      "value": "1356469075"
+      "value": ""
     }
   }
 }
