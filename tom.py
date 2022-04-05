@@ -47,9 +47,9 @@ START_TEXT = """
       𝙸'𝙼 𝙰𝙳𝚅𝙰𝙽𝙲𝙴 𝚅𝙲 𝙱𝙾𝚃 𝙵𝙾𝚁 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 . : /
 ┏━━━━━━━━━━━━━━━━┓
 ┣★
-┣★ 𝙱𝙰𝙱𝚄 : 🆃🅹🅽(tg://user?id=5222883210)
+┣★ 𝙱𝙰𝙱𝚄 
 ┣★
-┣★ 𝚂𝙷𝙾𝙽𝙰 :  (tg://user?id={})
+┣★ 𝚂𝙷𝙾𝙽𝙰
 ┣★
 ┗━━━━━━━━━━━━━━━━┛
 
@@ -250,7 +250,7 @@ async def video_play(_, message):
     except:
         return await message.reply_text(f"<b>Usage:</b> <code>/{state} [query]</code>")
     chat_id = message.chat.id
-    m = await message.reply_text("🔎")
+    m = await message.reply_text("🤤")
     if state == "play":
         damn = AudioPiped
         ded = yt_audio
