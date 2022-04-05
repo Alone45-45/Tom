@@ -1,8 +1,8 @@
 {
-  "name": "♡︎ ʙᴀʙʏ ɢɪʀʟ ᴍᴜsɪᴄ ♡︎",
+  "name": "♡︎ 𝚃𝙹𝙽 𝙼𝚄𝚂𝙸𝙲 ♡︎",
   "description": "A Telegram Bot To Play Songs In Telegram Group Video Chats. Powered by PyTGCalls.",
   "keywords": ["Music", " Videochat", "Voicechat", "Telegram"],
-  "logo": "https://telegra.ph/file/22ae93512721d5186932e.jpg",
+  "logo": "https://te.legra.ph/file/d1344663dfba5cadb595d.jpg",
   "repository": "https://github.com/AnonymousBoy1025/BabyGirlMusic",
   "stack": "container",
   "env": {
