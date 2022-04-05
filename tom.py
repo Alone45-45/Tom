@@ -64,7 +64,7 @@ START_BUTTONS = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton("♡𝙷𝙴𝙻𝙿 𝙼𝙴 𝙱𝙰𝙱𝚄♡", callback_data="cbcmds"),
-            InlineKeyboardButton("♡𝚂𝙷𝙾𝙽𝙰♡", url="https://t.me/Doranobi_Group_bot")
+            InlineKeyboardButton("♡𝚂𝙷𝙾𝙽𝙰♡", url="https://t.me/Nobita_Doremon_bot")
         ],
         [
             InlineKeyboardButton("♡𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙱𝙰𝙱𝚈♡", url="https://t.me/TheJerrySupport"),
@@ -80,7 +80,7 @@ BUTTONS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(text="♡𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙱𝙰𝙱𝚈♡", url="https://t.me/TheJerrySupport"),
-            InlineKeyboardButton(text="♡𝚂𝙷𝙾𝙽𝙰♡", url="https://t.me/Doranobi_Group_bot")
+            InlineKeyboardButton(text="♡𝚂𝙷𝙾𝙽𝙰♡", url="https://t.me/Nobita_Doremon_bot")
         ]
     ]
 )
