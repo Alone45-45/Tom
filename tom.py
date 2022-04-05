@@ -64,14 +64,14 @@ START_BUTTONS = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton("♡𝙷𝙴𝙻𝙿 𝙼𝙴 𝙱𝙰𝙱𝚄♡", callback_data="cbcmds"),
-            InlineKeyboardButton("♡𝚂𝙷𝙾𝙽𝙰♡", url="https://t.me/anonymous_was_bot")
+            InlineKeyboardButton("♡𝚂𝙷𝙾𝙽𝙰♡", url="https://t.me/Doranobi_Group_bot")
         ],
         [
-            InlineKeyboardButton("♡𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙱𝙰𝙱𝚈♡", url="https://t.me/DevilsHeavenMF"),
-            InlineKeyboardButton("♡𝚄𝙿𝙳𝙰𝚃𝙴 𝙹𝙰𝙰𝙽♡", url="https://t.me/DevilsHeavenMF")
+            InlineKeyboardButton("♡𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙱𝙰𝙱𝚈♡", url="https://t.me/TheJerrySupport"),
+            InlineKeyboardButton("♡𝚄𝙿𝙳𝙰𝚃𝙴 𝙹𝙰𝙰𝙽♡", url="https://t.me/THEJERRY_NETWORK")
         ],
         [
-            InlineKeyboardButton("♡𝚂𝚆𝙴𝙴𝚃𝙷𝙴𝙰𝚁𝚃♡", url="https://github.com/AnonymousBoy1025/BabyGirlMusic")
+            InlineKeyboardButton("♡𝚂𝚆𝙴𝙴𝚃𝙷𝙴𝙰𝚁𝚃♡", url="https://t.me/song_hye_kyoo")
         ]
     ]
 )
@@ -79,8 +79,8 @@ START_BUTTONS = InlineKeyboardMarkup(
 BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="♡𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙱𝙰𝙱𝚈♡", url="https://t.me/DevilsHeavenMF"),
-            InlineKeyboardButton(text="♡𝚂𝙷𝙾𝙽𝙰♡", url="https://t.me/anonymous_was_bot")
+            InlineKeyboardButton(text="♡𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙱𝙰𝙱𝚈♡", url="https://t.me/TheJerrySupport"),
+            InlineKeyboardButton(text="♡𝚂𝙷𝙾𝙽𝙰♡", url="https://t.me/Doranobi_Group_bot")
         ]
     ]
 )
@@ -213,7 +213,7 @@ async def cbcmds(_, query: CallbackQuery):
 @bot.on_message(filters.command("start") & filters.private)
 async def start_private(_, message):
     msg = START_TEXT.format(message.from_user.mention, OWNER_ID, OWNER_ID)
-    await message.reply_photo(photo="https://telegra.ph/file/22ae93512721d5186932e.jpg",
+    await message.reply_photo(photo="https://te.legra.ph/file/b0284421d07c5b51b3db1.jpg",
                              caption = msg,
                              reply_markup = START_BUTTONS)
     
@@ -440,7 +440,7 @@ async def restart(_, message):
     if user_id != OWNER_ID:
         return
     await message.reply_text("🛠 <i>Restarting Music Player...</i>")
-    os.system(f"kill -9 {os.getpid()} && python3 babygirl.py")
+    os.system(f"kill -9 {os.getpid()} && python3 tom.py")
             
 
 app.start()
