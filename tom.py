@@ -26,18 +26,18 @@ from BabyPlugs.admin_check import *
 
 bot = Client(
     "Tom",
-    bot_token = os.environ["BOT_TOKEN" ,"5583584098:AAH8GrxqqdwnkCKALmTYONkEJQU98j_OYiQ"],
-    api_id = int(os.environ["API_ID" ,"9683694"]),
-    api_hash = os.environ["API_HASH" ,"c426d9f7087744afdafc961a620b6338"]
+    bot_token = os.environ["BOT_TOKEN"],
+    api_id = int(os.environ["API_ID" ]),
+    api_hash = os.environ["API_HASH"]
 )
 
-client = Client(os.environ["SESSION_NAME" ,"AQAHLwS-fotPEWLJhYh55Hjm3oZpT7HPF1oKgOzDuP8hL3jCsgpx6pAtwP_LkB3X4JX0QAuDEOAKDOYmq-yio4KPnTX8l0sZYeXpKK9u6T6AqDZ1zldz2rtBWpB8AjlbzcRAShk5GXrRkHx0lAuXsYZK3I_vRXm0KhKTbGzswLWrNTf-_MJi2hYpfRPWcV07AIwbdsa4KHarQrSoc7r2pqrb5wZ3yUpoVlfTedrouLdmJeHixl6kAGTBFApSSR3rMMDd343RkQG4a8oQphNAtOMRukz9uDQ8e0UhnrMSbshPTDzEpUrU271Abq_n9CCfXEUmIm40Qq3EeJdiGXNDRnCwAAAAATGMW3kA"], int(os.environ["API_ID"]), os.environ["API_HASH"])
+client = Client(os.environ["SESSION_NAME"], int(os.environ["API_ID"]), os.environ["API_HASH"])
 
 app = PyTgCalls(client)
 
-OWNER_ID = int(os.environ["OWNER_ID","5286943475"])
+OWNER_ID = int(os.environ["OWNER_ID"])
 
-BOT_USERNAME = os.environ["BOT_USERNAME","ALONEX_MUSIC_BOT"]
+BOT_USERNAME = os.environ["BOT_USERNAME"]
 
 LIVE_CHATS = []
 
